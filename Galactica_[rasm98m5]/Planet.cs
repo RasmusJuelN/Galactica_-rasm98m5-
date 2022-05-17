@@ -13,7 +13,7 @@
 
         public double Distance(Star star, Planet planet)
         {
-            double distance = Math.Sqrt(Math.Pow((star.Positioning.x - planet.Positioning.x), 2) + Math.Pow((star.Positioning.y - planet.Positioning.y), 2));
+            double distance = Math.Sqrt(Math.Pow(star.Positioning.x - planet.Positioning.x, 2) + Math.Pow(star.Positioning.y - planet.Positioning.y, 2));
             return Math.Round(distance, 2); ;
         }
 

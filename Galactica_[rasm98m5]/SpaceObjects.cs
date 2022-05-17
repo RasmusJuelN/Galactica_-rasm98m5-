@@ -4,8 +4,8 @@ namespace Galactica__rasm98m5_
     internal abstract class SpaceObjects
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public Position Positioning { get; set; }
+        public string? Name { get; set; }
+        public Position? Positioning { get; set; }
         public StarType StarType { get; set; }
 
 

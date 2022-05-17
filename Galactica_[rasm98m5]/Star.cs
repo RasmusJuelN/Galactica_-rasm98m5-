@@ -6,7 +6,7 @@ namespace Galactica__rasm98m5_
         public StarType Type { get; set; }
         public int Temperature { get; set; }
 
-        new public List<Planet> Planets = new();
+        public List<Planet> Planets = new();
 
         public Star()
         {
